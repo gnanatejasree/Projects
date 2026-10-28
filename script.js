@@ -11,14 +11,14 @@ const questions = [
   },
   {
     question: "CSS stands for?",
-    options: ["Cascading Style Sheets", "Colorful Style Sheets", "Computer Style Sheets", "Creative Style Sheets"],
+    options: ["Colorful Style Sheets", "Cascading Style Sheets", "Computer Style Sheets", "Creative Style Sheets"],
     answer: 0
   }
 ];
 
 let currentQuestion = 0;
 let score = 0;
-let timeLeft = 15;
+let timeLeft = 20;
 let timerId;
 
 const questionEl = document.getElementById("question");
