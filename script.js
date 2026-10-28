@@ -12,7 +12,7 @@ const questions = [
   {
     question: "CSS stands for?",
     options: ["Colorful Style Sheets", "Cascading Style Sheets", "Computer Style Sheets", "Creative Style Sheets"],
-    answer: 0
+    answer: 1
   }
 ];
 
