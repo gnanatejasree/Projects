@@ -32,7 +32,7 @@ const finalScoreEl = document.getElementById("finalScore");
 
 function loadQuestion() {
   clearInterval(timerId);
-  timeLeft = 15;
+  timeLeft = 20;
   timerEl.textContent = timeLeft;
   timerEl.classList.remove("low-time");
 
